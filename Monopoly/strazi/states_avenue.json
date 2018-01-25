@@ -3,11 +3,13 @@
   "nume": "States Avenue",
   "valoareaProprietatii": "140",
   "culoare": "roz",
-  "pretChirie": "10",
-  "pretCu1Casa": "50",
-  "pretCu2Case": "150",
-  "pretCu3Case": "450",
-  "pretCu4Case": "625",
-  "pretCuHotel": "750",
+  "chirii": [
+    "10",
+    "50",
+    "150",
+    "450",
+    "625",
+    "750"
+  ],
   "pretPerCasa": "100"
 }

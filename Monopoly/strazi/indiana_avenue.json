@@ -3,11 +3,13 @@
   "nume": "Indiana Avenue",
   "valoareaProprietatii": "220",
   "culoare": "rosu",
-  "pretChirie": "18",
-  "pretCu1Casa": "90",
-  "pretCu2Case": "250",
-  "pretCu3Case": "700",
-  "pretCu4Case": "875",
-  "pretCuHotel": "1050",
+  "chirii": [
+    "18",
+    "90",
+    "250",
+    "700",
+    "875",
+    "1050"
+  ],
   "pretPerCasa": "150"
 }

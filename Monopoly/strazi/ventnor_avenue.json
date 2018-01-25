@@ -3,11 +3,13 @@
   "nume": "Ventnor Avenue",
   "valoareaProprietatii": "260",
   "culoare": "galben",
-  "pretChirie": "22",
-  "pretCu1Casa": "110",
-  "pretCu2Case": "330",
-  "pretCu3Case": "800",
-  "pretCu4Case": "975",
-  "pretCuHotel": "1150",
+  "chirii": [
+    "22",
+    "110",
+    "330",
+    "800",
+    "975",
+    "1150"
+  ],
   "pretPerCasa": "150"
 }

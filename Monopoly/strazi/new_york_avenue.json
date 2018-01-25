@@ -3,11 +3,13 @@
   "nume": "New York Avenue",
   "valoareaProprietatii": "200",
   "culoare": "portocaliu",
-  "pretChirie": "16",
-  "pretCu1Casa": "80",
-  "pretCu2Case": "220",
-  "pretCu3Case": "600",
-  "pretCu4Case": "800",
-  "pretCuHotel": "1000",
+  "chirii": [
+    "16",
+    "80",
+    "220",
+    "600",
+    "800",
+    "1000"
+  ],
   "pretPerCasa": "100"
 }

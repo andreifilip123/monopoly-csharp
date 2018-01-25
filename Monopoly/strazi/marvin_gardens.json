@@ -3,11 +3,13 @@
   "nume": "Marvin Gardens",
   "valoareaProprietatii": "280",
   "culoare": "galben",
-  "pretChirie": "24",
-  "pretCu1Casa": "120",
-  "pretCu2Case": "360",
-  "pretCu3Case": "850",
-  "pretCu4Case": "1025",
-  "pretCuHotel": "1200",
+  "chirii": [
+    "24",
+    "120",
+    "360",
+    "850",
+    "1025",
+    "1200"
+  ],
   "pretPerCasa": "150"
 }

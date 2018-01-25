@@ -3,11 +3,13 @@
   "nume": "Tennessee Avenue",
   "valoareaProprietatii": "180",
   "culoare": "portocaliu",
-  "pretChirie": "14",
-  "pretCu1Casa": "70",
-  "pretCu2Case": "200",
-  "pretCu3Case": "550",
-  "pretCu4Case": "750",
-  "pretCuHotel": "950",
+  "chirii": [
+    "14",
+    "70",
+    "200",
+    "550",
+    "750",
+    "950"
+  ],
   "pretPerCasa": "100"
 }

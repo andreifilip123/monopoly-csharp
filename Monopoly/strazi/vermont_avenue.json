@@ -3,11 +3,13 @@
   "nume": "Vermont Avenue",
   "valoareaProprietatii": "100",
   "culoare": "bleo",
-  "pretChirie": "6",
-  "pretCu1Casa": "30",
-  "pretCu2Case": "90",
-  "pretCu3Case": "270",
-  "pretCu4Case": "400",
-  "pretCuHotel": "550",
+  "chirii": [
+    "6",
+    "30",
+    "90",
+    "270",
+    "400",
+    "550"
+  ],
   "pretPerCasa": "50"
 }

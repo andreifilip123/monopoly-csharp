@@ -3,11 +3,13 @@
   "nume": "Boardwalk",
   "valoareaProprietatii": "400",
   "culoare": "bleomarin",
-  "pretChirie": "40",
-  "pretCu1Casa": "200",
-  "pretCu2Case": "600",
-  "pretCu3Case": "1400",
-  "pretCu4Case": "1700",
-  "pretCuHotel": "2000",
+  "chirii": [
+    "40",
+    "200",
+    "600",
+    "1400",
+    "1700",
+    "2000"
+  ],
   "pretPerCasa": "200"
 }

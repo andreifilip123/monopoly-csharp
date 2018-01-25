@@ -3,11 +3,13 @@
   "nume": "Pennsylvania Avenue",
   "valoareaProprietatii": "320",
   "culoare": "verde",
-  "pretChirie": "28",
-  "pretCu1Casa": "150",
-  "pretCu2Case": "450",
-  "pretCu3Case": "1000",
-  "pretCu4Case": "1200",
-  "pretCuHotel": "1400",
+  "chirii": [
+    "28",
+    "150",
+    "450",
+    "1000",
+    "1200",
+    "1400"
+  ],
   "pretPerCasa": "200"
 }
