@@ -1,0 +1,13 @@
+{
+  "ID":  "24",
+  "nume": "Illinois Avenue",
+  "valoareaProprietatii": "240",
+  "culoare": "rosu",
+  "pretChirie": "20",
+  "pretCu1Casa": "100",
+  "pretCu2Case": "300",
+  "pretCu3Case": "750",
+  "pretCu4Case": "925",
+  "pretCuHotel": "1100",
+  "pretPerCasa": "150"
+}

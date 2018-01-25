@@ -1,0 +1,13 @@
+{
+  "ID":  "11",
+  "nume": "St. Charles Place",
+  "valoareaProprietatii": "140",
+  "culoare": "roz",
+  "pretChirie": "10",
+  "pretCu1Casa": "50",
+  "pretCu2Case": "150",
+  "pretCu3Case": "450",
+  "pretCu4Case": "625",
+  "pretCuHotel": "750",
+  "pretPerCasa": "100"
+}

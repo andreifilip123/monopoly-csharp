@@ -1,0 +1,13 @@
+﻿{
+  "ID":  "1",
+  "nume": "Mediterranean Avenue",
+  "valoareaProprietatii": "60",
+  "culoare": "maro",
+  "pretChirie": "2",
+  "pretCu1Casa": "10",
+  "pretCu2Case": "30",
+  "pretCu3Case": "90",
+  "pretCu4Case": "160",
+  "pretCuHotel": "250",
+  "pretPerCasa": "50"  
+}

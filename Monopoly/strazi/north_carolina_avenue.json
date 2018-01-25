@@ -1,0 +1,13 @@
+{
+  "ID":  "32",
+  "nume": "North Carolina Avenue",
+  "valoareaProprietatii": "300",
+  "culoare": "verde",
+  "pretChirie": "26",
+  "pretCu1Casa": "130",
+  "pretCu2Case": "390",
+  "pretCu3Case": "900",
+  "pretCu4Case": "1100",
+  "pretCuHotel": "1275",
+  "pretPerCasa": "200"
+}
