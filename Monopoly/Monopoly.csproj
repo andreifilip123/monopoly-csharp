@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,14 +48,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AfisareCelula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfisareCelula.Designer.cs">
+      <DependentUpon>AfisareCelula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarteSpeciala.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Celula.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Culoare.cs" />
+    <Compile Include="cutiaComunitatii.cs" />
+    <Compile Include="EstiInInchisoare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstiInInchisoare.Designer.cs">
+      <DependentUpon>EstiInInchisoare.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gara.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inchisoare.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Joc.cs" />
+    <Compile Include="Jucator.cs" />
+    <Compile Include="ListaCelule.cs" />
+    <Compile Include="ListaCutiaComunitatii.cs" />
+    <Compile Include="ListaSanse.cs" />
+    <Compile Include="Pion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proprietate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sansa.cs" />
+    <Compile Include="Strada.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utilitate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Zar.cs" />
+    <EmbeddedResource Include="AfisareCelula.resx">
+      <DependentUpon>AfisareCelula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstiInInchisoare.resx">
+      <DependentUpon>EstiInInchisoare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,7 +116,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="cartiSpeciale.json" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="cutiaComunitatii.json" />
+    <None Include="gari.json" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -71,9 +132,73 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="sanse.json" />
+    <None Include="strazi.json" />
+    <None Include="utilitati.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\board.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\zar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\zar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\zar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\zar4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\zar5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\zar6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\atlantic_avenue.jpg" />
+    <Content Include="Assets\baltic_avenue.jpg" />
+    <Content Include="Assets\boardwalk.jpg" />
+    <Content Include="Assets\b_and_o_railroad.jpg" />
+    <Content Include="Assets\connecticut_avenue.jpg" />
+    <Content Include="Assets\cutia_comunitatii.jpg" />
+    <Content Include="Assets\electric_company.jpg" />
+    <Content Include="Assets\illinois_avenue.jpg" />
+    <Content Include="Assets\indiana_avenue.jpg" />
+    <Content Include="Assets\kentucky_avenue.jpg" />
+    <Content Include="Assets\marvin_gardens.jpg" />
+    <Content Include="Assets\mediterranean_avenue.jpg" />
+    <Content Include="Assets\new_york_avenue.jpg" />
+    <Content Include="Assets\north_carolina_avenue.jpg" />
+    <Content Include="Assets\oriental_avenue.jpg" />
+    <Content Include="Assets\pacific_avenue.jpg" />
+    <Content Include="Assets\park_place.jpg" />
+    <Content Include="Assets\pennsylvania_avenue.jpg" />
+    <Content Include="Assets\pennsylvania_railroad.jpg" />
+    <Content Include="Assets\reading_railroad.jpg" />
+    <Content Include="Assets\sansa.jpg" />
+    <Content Include="Assets\short_line.jpg" />
+    <Content Include="Assets\states_avenue.jpg" />
+    <Content Include="Assets\st_charles_place.jpg" />
+    <Content Include="Assets\st_james_place.jpg" />
+    <Content Include="Assets\tennessee_avenue.jpg" />
+    <Content Include="Assets\ventnor_avenue.jpg" />
+    <Content Include="Assets\vermont_avenue.jpg" />
+    <Content Include="Assets\virginia_avenue.jpg" />
+    <Content Include="Assets\water_works.jpg" />
+    <Content Include="pioni\caine.png" />
+    <Content Include="pioni\cizma.png" />
+    <Content Include="pioni\degetar.png" />
+    <Content Include="pioni\masina.png" />
+    <Content Include="pioni\palarie.png" />
+    <Content Include="pioni\roaba.png" />
+    <Content Include="pioni\vapor.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

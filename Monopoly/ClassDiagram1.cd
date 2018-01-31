@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Monopoly.Celula" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Celula.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Culoare" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACAAAAAAAAAAAAEAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Culoare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Form1" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAIBAAQACCAEACAAAAAACAAFAAIQdAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Gara" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gara.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Joc" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAABgAAAAAQAAAAAAAAAAAIACCAABAAAAAAAAA=</HashCode>
+      <FileName>Joc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Jucator" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACQAgACgAAAAEAAAAACAggQEAAQABAABAAAAAAA=</HashCode>
+      <FileName>Jucator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Pion" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABCAAAAAAAAAABAQAAAAgAAAAAA=</HashCode>
+      <FileName>Pion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Program" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Proprietate" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAACAAAAAAAAAEABAAKAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Proprietate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Strada" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAEAAAAAAAAAgAQAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strada.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Utilitate" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAABAAIQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilitate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Zar" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAA=</HashCode>
+      <FileName>Zar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAIAAA4AcAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monopoly.Properties.Settings" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
