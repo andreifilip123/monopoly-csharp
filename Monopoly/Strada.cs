@@ -47,7 +47,7 @@ namespace Monopoly
             return false;
         }
 
-        public override void activeaza(Jucator jucator)
+        public new void activeaza(Jucator jucator)
         {
             if(proprietar == null)
             {

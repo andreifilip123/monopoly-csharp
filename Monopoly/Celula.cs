@@ -6,13 +6,16 @@ using Newtonsoft.Json;
 
 namespace Monopoly
 {
-    public abstract class Celula : Button
+    public class Celula : Button
     {
         public int ID { get; set; }
         public string nume { get; set; }
         public Image imagine { get; set; }
 
-        public abstract void activeaza(Jucator jucator);
+        public void activeaza(Jucator jucator)
+        {
+            
+        }
 
         [JsonConstructor]
         public Celula(int ID, string nume, string imagine)

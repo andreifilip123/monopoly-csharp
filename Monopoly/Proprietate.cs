@@ -25,7 +25,7 @@ namespace Monopoly
 
         public abstract int chirie(Jucator jucator);
 
-        public override void activeaza(Jucator jucator)
+        public new void activeaza(Jucator jucator)
         {
             return;
         }
