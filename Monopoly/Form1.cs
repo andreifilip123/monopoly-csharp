@@ -7,15 +7,19 @@ namespace Monopoly
     public partial class Form1 : Form
     {
         Joc tempJoc;
-        Jucator jucatorActiv = Joc.jucatorActiv;
+        Jucator jucatorActiv;
 
         public Form1()
         {
             InitializeComponent();
+            jucatorActiv = Joc.jucatorActiv;
             tempJoc = new Joc();
-            foreach(var pion in Joc.pioni)
+            foreach (var pion in Joc.pioni)
             {
-                this.Controls.Add(pion);
+                pion.Visible = true;
+                pion.Refresh();
+                pion.Show();
+                ListaCelule.Instanta[0].Controls.Add(pion);
             }
         }
 
@@ -71,7 +75,7 @@ namespace Monopoly
             {
                 int indexulJucatoruluiTrecut = Joc.jucatori.IndexOf(jucatorActiv);
                 Joc.jucatori[indexulJucatoruluiTrecut] = jucatorActiv;
-                
+
                 Joc.jucatorActiv = urmatorulJucator;
 
                 daCuZarul.Enabled = true;

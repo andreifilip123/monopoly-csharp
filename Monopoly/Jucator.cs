@@ -49,20 +49,22 @@ namespace Monopoly
             this.pion = new Pion(pion).getImage();
             PictureBox tempPictureBox = new PictureBox();
             Point locatieInitiala = ListaCelule.Instanta[0].Location;
-            tempPictureBox.Location = new Point(locatieInitiala.X, locatieInitiala.Y);
+            //tempPictureBox.Location = new Point(locatieInitiala.X, locatieInitiala.Y);
+            tempPictureBox.Location = new Point(1, 1);
             tempPictureBox.BackgroundImage = this.pion;
             tempPictureBox.BackgroundImageLayout = ImageLayout.Zoom;
+            tempPictureBox.Image = this.pion;
             tempPictureBox.Anchor = (((((AnchorStyles.Top | AnchorStyles.Bottom)
             | AnchorStyles.Left)
             | AnchorStyles.Right)));
             tempPictureBox.Name = $"pionJucator{Joc.jucatori.IndexOf(this)}";
             tempPictureBox.Size = new System.Drawing.Size(49, 50);
-            tempPictureBox.TabIndex = 100000;
-            tempPictureBox.TabStop = false;
+            //tempPictureBox.TabIndex = 100000;
+            //tempPictureBox.TabStop = false;
             tempPictureBox.BringToFront();
             tempPictureBox.Visible = true;
-
-            Joc.pioni.Add(tempPictureBox);
+            locatiePion = tempPictureBox;
+            Joc.pioni.Add(locatiePion);
             this.nume = nume;
             this.bani = bani;
             proprietatiDetinute = new List<Proprietate>();
