@@ -27,7 +27,7 @@ namespace Monopoly
 
         public new void activeaza(Jucator jucator)
         {
-            if(nume == "Sansa")
+            if(nume.StartsWith("Sansa".ToLower()))
             {
                 Sansa tempSansa = ListaSanse.Instanta[0];
                 Sansa.executa(tempSansa, jucator);

@@ -78,13 +78,10 @@ namespace Monopoly
 
             foreach (var carteSpeciala in cartiSpecialeIncarcate)
             {
-                CarteSpeciala itemExistent = (CarteSpeciala)ListaCelule.Instanta.Find(item => item.Name == parseString(carteSpeciala.nume));
-                if (itemExistent != null)
-                {
-                    //pasareInformatiiCartiSpeciale(carteSpeciala, (Utilitate)itemExistent);
-                }
+                ListaCelule.Instanta.Find(item => item.Name == parseString(carteSpeciala.nume)).ID = carteSpeciala.ID;
             }
 
+            ListaCelule.Instanta.Sort(Celula.comparare);
             // Creare culori
             foreach (Celula celula in ListaCelule.Instanta)
             {
@@ -102,6 +99,7 @@ namespace Monopoly
                         culori.Add(tempCuloare);
                     }
                 }
+                Console.WriteLine(celula.ID);
             }
 
             ListaCelule.Instanta.Sort(Celula.comparare);
