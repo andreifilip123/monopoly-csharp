@@ -1,0 +1,178 @@
+﻿[
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "GO",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi la GO ! Primesti 200 !"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "ILLINOIS_AVENUE",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Avanseaza la Illinois Avenue. Daca treci prin GO, primesti 200"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "ST_CHARLES_PLACE",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },    
+    "mesaj": "Mergi la St.Charles Place. Daca treci prin GO, primesti 200"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "UTILITATE",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },    
+    "mesaj": "Avanseaza la cea mai apropiata utilitate. Daca este nedetinuta, o poti cumpara de la banca. Daca este detinuta, va trebui sa ii platesti proprietarului de 10 ori cat dai cu zarul"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "GARA",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi la cea mai apropiata gara. Daca este nedetinuta, o poti cumpara de la banca. Daca este a cuiva, va trebui sa ii platesti de doua ori suma datorata."
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "TREISPATII",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi inapoi 3 spatii"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "INCHISOARE",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi la inchisoare ! Mergi direct la inchisoare, nu treci prin go, nu primesti 200 !"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "READING_RAILROAD",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi la Reading Railroad. Daca treci prin GO, primesti 200"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "BOARDWALK",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi la Boardwalk. Daca treci prin GO, primesti 200"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "50",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Banca iti plateste dividente in valoare de 50"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "150",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Imprumutul tau pentru constructii se maturizeaza. Primesti 150"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "100",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Ai castigat o competitie de cuvinte incrucisate. Primesti 100"
+  },
+  {
+    "categorie": "platesteLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "platesteLaBanca": "REPARATII",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Trebuie sa faci reparatii generale pe toate proprietatile. Platesti 25 pentru fiecare casa si 100 pentru fiecare hotel"
+  },
+  {
+    "categorie": "platesteLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "platesteLaBanca": "15",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Taxa pentru saraci - 15"
+  },
+  {
+    "categorie": "platesteLaJucatori",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "50",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Ai fost ales presedinte al consiliului. Plateste 50 fiecarui jucator"
+  },
+  {
+    "categorie": "iesiDinInchisoare",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "50",
+      "iesiDinInchisoare": "true"
+    },
+    "mesaj": "Cu acest card poti iesi din inchisoare. Acest card poate fi pastrat."
+  }
+]
