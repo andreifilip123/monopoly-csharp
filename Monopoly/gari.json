@@ -1,0 +1,23 @@
+﻿[
+  {
+    "ID": "25",
+    "nume": "B. & O. Railroad",
+    "imagineaProprietatii": "b_and_o_railroad"
+  },
+  {
+    "ID": "15",
+    "nume": "Pennsylvania Railroad",
+    "imagineaProprietatii": "pennsylvania_railroad"
+  },
+  {
+    "ID": "5",
+    "nume": "Reading Railroad",
+    "imagineaProprietatii": "reading_railroad"
+  },
+  {
+    "ID": "35",
+    "nume": "Short Line",
+    "imagineaProprietatii": "short_line"
+  }
+
+]
