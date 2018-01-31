@@ -42,6 +42,12 @@
             this.zar2 = new System.Windows.Forms.PictureBox();
             this.zar1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.impozit = new Monopoly.Celula();
+            this.taxa_de_lux = new Monopoly.Celula();
+            this.mergi_la_inchisoare = new Monopoly.Celula();
+            this.parcare_gratuita = new Monopoly.Celula();
+            this.inchisoare = new Monopoly.Inchisoare();
+            this.go = new Monopoly.Celula();
             this.cutia_comunitatii3 = new Monopoly.CarteSpeciala();
             this.cutia_comunitatii2 = new Monopoly.CarteSpeciala();
             this.sansa3 = new Monopoly.CarteSpeciala();
@@ -249,6 +255,12 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::Monopoly.Properties.Resources.board;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Controls.Add(this.impozit);
+            this.panel1.Controls.Add(this.taxa_de_lux);
+            this.panel1.Controls.Add(this.mergi_la_inchisoare);
+            this.panel1.Controls.Add(this.parcare_gratuita);
+            this.panel1.Controls.Add(this.inchisoare);
+            this.panel1.Controls.Add(this.go);
             this.panel1.Controls.Add(this.cutia_comunitatii3);
             this.panel1.Controls.Add(this.cutia_comunitatii2);
             this.panel1.Controls.Add(this.sansa3);
@@ -285,8 +297,80 @@
             this.panel1.Controls.Add(this.mediterranean_avenue);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(673, 673);
+            this.panel1.Size = new System.Drawing.Size(674, 673);
             this.panel1.TabIndex = 17;
+            // 
+            // impozit
+            // 
+            this.impozit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.impozit.ID = 4;
+            this.impozit.imagine = null;
+            this.impozit.Location = new System.Drawing.Point(364, 585);
+            this.impozit.Name = "impozit";
+            this.impozit.nume = "impozit";
+            this.impozit.Size = new System.Drawing.Size(55, 85);
+            this.impozit.TabIndex = 18;
+            this.impozit.UseVisualStyleBackColor = true;
+            // 
+            // taxa_de_lux
+            // 
+            this.taxa_de_lux.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.taxa_de_lux.ID = 38;
+            this.taxa_de_lux.imagine = null;
+            this.taxa_de_lux.Location = new System.Drawing.Point(586, 475);
+            this.taxa_de_lux.Name = "taxa_de_lux";
+            this.taxa_de_lux.nume = "taxa_de_lux";
+            this.taxa_de_lux.Size = new System.Drawing.Size(84, 54);
+            this.taxa_de_lux.TabIndex = 18;
+            this.taxa_de_lux.UseVisualStyleBackColor = true;
+            // 
+            // mergi_la_inchisoare
+            // 
+            this.mergi_la_inchisoare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mergi_la_inchisoare.ID = 30;
+            this.mergi_la_inchisoare.imagine = null;
+            this.mergi_la_inchisoare.Location = new System.Drawing.Point(586, 2);
+            this.mergi_la_inchisoare.Name = "mergi_la_inchisoare";
+            this.mergi_la_inchisoare.nume = "mergi_la_inchisoare";
+            this.mergi_la_inchisoare.Size = new System.Drawing.Size(85, 85);
+            this.mergi_la_inchisoare.TabIndex = 43;
+            this.mergi_la_inchisoare.UseVisualStyleBackColor = true;
+            // 
+            // parcare_gratuita
+            // 
+            this.parcare_gratuita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.parcare_gratuita.ID = 20;
+            this.parcare_gratuita.imagine = null;
+            this.parcare_gratuita.Location = new System.Drawing.Point(4, 3);
+            this.parcare_gratuita.Name = "parcare_gratuita";
+            this.parcare_gratuita.nume = "parcare_gratuita";
+            this.parcare_gratuita.Size = new System.Drawing.Size(85, 85);
+            this.parcare_gratuita.TabIndex = 18;
+            this.parcare_gratuita.UseVisualStyleBackColor = true;
+            // 
+            // inchisoare
+            // 
+            this.inchisoare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.inchisoare.ID = 10;
+            this.inchisoare.imagine = null;
+            this.inchisoare.Location = new System.Drawing.Point(4, 585);
+            this.inchisoare.Name = "inchisoare";
+            this.inchisoare.nume = "inchisoare";
+            this.inchisoare.Size = new System.Drawing.Size(85, 85);
+            this.inchisoare.TabIndex = 18;
+            this.inchisoare.UseVisualStyleBackColor = true;
+            // 
+            // go
+            // 
+            this.go.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.go.ID = 0;
+            this.go.imagine = null;
+            this.go.Location = new System.Drawing.Point(585, 585);
+            this.go.Name = "go";
+            this.go.nume = "go";
+            this.go.Size = new System.Drawing.Size(85, 85);
+            this.go.TabIndex = 18;
+            this.go.UseVisualStyleBackColor = true;
             // 
             // cutia_comunitatii3
             // 
@@ -873,7 +957,7 @@
             this.Controls.Add(this.startJoc);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Monopoly";
             ((System.ComponentModel.ISupportInitialize)(this.pionJucator)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zar1)).EndInit();
@@ -932,6 +1016,12 @@
         private CarteSpeciala sansa2;
         private CarteSpeciala sansa1;
         private CarteSpeciala cutia_comunitatii1;
+        private Celula impozit;
+        private Celula taxa_de_lux;
+        private Celula mergi_la_inchisoare;
+        private Celula parcare_gratuita;
+        private Inchisoare inchisoare;
+        private Celula go;
     }
 }
 

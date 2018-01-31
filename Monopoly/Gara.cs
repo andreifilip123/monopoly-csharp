@@ -20,7 +20,7 @@ namespace Monopoly
             ListaCelule.Instanta.Add(this);
         }
 
-        public void activeaza(Jucator jucator)
+        public override void activeaza(Jucator jucator)
         {
             if (proprietar == null)
             {

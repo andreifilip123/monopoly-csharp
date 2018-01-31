@@ -12,10 +12,10 @@ namespace Monopoly
         public string nume { get; set; }
         public Image imagine { get; set; }
 
-        //public void activeaza(Jucator jucator)
-        //{
-            
-        //}
+        public virtual void activeaza(Jucator jucator)
+        {
+
+        }
 
         [JsonConstructor]
         public Celula(int ID, string nume, string imagine)
