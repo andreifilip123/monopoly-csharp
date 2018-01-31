@@ -76,7 +76,6 @@
             this.oriental_avenue = new Monopoly.Strada();
             this.baltic_avenue = new Monopoly.Strada();
             this.mediterranean_avenue = new Monopoly.Strada();
-            this.inchisoare = new Monopoly.Inchisoare();
             ((System.ComponentModel.ISupportInitialize)(this.pionJucator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zar1)).BeginInit();
@@ -250,7 +249,6 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::Monopoly.Properties.Resources.board;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Controls.Add(this.inchisoare);
             this.panel1.Controls.Add(this.cutia_comunitatii3);
             this.panel1.Controls.Add(this.cutia_comunitatii2);
             this.panel1.Controls.Add(this.sansa3);
@@ -353,11 +351,11 @@
             // cutia_comunitatii1
             // 
             this.cutia_comunitatii1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cutia_comunitatii1.ID = 0;
-            this.cutia_comunitatii1.imagine = null;
+            this.cutia_comunitatii1.ID = 2;
+            this.cutia_comunitatii1.imagine = global::Monopoly.Properties.Resources.cutia_comunitatii;
             this.cutia_comunitatii1.Location = new System.Drawing.Point(475, 585);
             this.cutia_comunitatii1.Name = "cutia_comunitatii1";
-            this.cutia_comunitatii1.nume = null;
+            this.cutia_comunitatii1.nume = "cutia_comunitatii1";
             this.cutia_comunitatii1.Size = new System.Drawing.Size(54, 85);
             this.cutia_comunitatii1.TabIndex = 18;
             this.cutia_comunitatii1.UseVisualStyleBackColor = true;
@@ -399,8 +397,8 @@
             this.pennsylvania_railroad.culoare = null;
             this.pennsylvania_railroad.esteIpotecata = false;
             this.pennsylvania_railroad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pennsylvania_railroad.ID = 0;
-            this.pennsylvania_railroad.imagine = null;
+            this.pennsylvania_railroad.ID = 15;
+            this.pennsylvania_railroad.imagine = global::Monopoly.Properties.Resources.pennsylvania_railroad;
             this.pennsylvania_railroad.Location = new System.Drawing.Point(3, 310);
             this.pennsylvania_railroad.Name = "pennsylvania_railroad";
             this.pennsylvania_railroad.nume = null;
@@ -415,8 +413,8 @@
             this.short_line.culoare = null;
             this.short_line.esteIpotecata = false;
             this.short_line.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.short_line.ID = 0;
-            this.short_line.imagine = null;
+            this.short_line.ID = 35;
+            this.short_line.imagine = global::Monopoly.Properties.Resources.short_line;
             this.short_line.Location = new System.Drawing.Point(585, 310);
             this.short_line.Name = "short_line";
             this.short_line.nume = null;
@@ -431,8 +429,8 @@
             this.b_and_o_railroad.culoare = null;
             this.b_and_o_railroad.esteIpotecata = false;
             this.b_and_o_railroad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.b_and_o_railroad.ID = 0;
-            this.b_and_o_railroad.imagine = null;
+            this.b_and_o_railroad.ID = 25;
+            this.b_and_o_railroad.imagine = global::Monopoly.Properties.Resources.b_and_o_railroad;
             this.b_and_o_railroad.Location = new System.Drawing.Point(309, 1);
             this.b_and_o_railroad.Name = "b_and_o_railroad";
             this.b_and_o_railroad.nume = null;
@@ -447,8 +445,8 @@
             this.reading_railroad.culoare = null;
             this.reading_railroad.esteIpotecata = false;
             this.reading_railroad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.reading_railroad.ID = 0;
-            this.reading_railroad.imagine = null;
+            this.reading_railroad.ID = 5;
+            this.reading_railroad.imagine = global::Monopoly.Properties.Resources.reading_railroad;
             this.reading_railroad.Location = new System.Drawing.Point(309, 585);
             this.reading_railroad.Name = "reading_railroad";
             this.reading_railroad.nume = null;
@@ -843,7 +841,7 @@
             this.mediterranean_avenue.esteIpotecata = false;
             this.mediterranean_avenue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mediterranean_avenue.ID = 0;
-            this.mediterranean_avenue.imagine = null;
+            this.mediterranean_avenue.imagine = global::Monopoly.Properties.Resources.mediterranean_avenue;
             this.mediterranean_avenue.Location = new System.Drawing.Point(528, 585);
             this.mediterranean_avenue.Name = "mediterranean_avenue";
             this.mediterranean_avenue.nume = null;
@@ -853,18 +851,6 @@
             this.mediterranean_avenue.TabIndex = 18;
             this.mediterranean_avenue.UseVisualStyleBackColor = true;
             this.mediterranean_avenue.valoareaProprietatii = 0;
-            // 
-            // inchisoare
-            // 
-            this.inchisoare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.inchisoare.ID = 0;
-            this.inchisoare.imagine = null;
-            this.inchisoare.Location = new System.Drawing.Point(-1, 585);
-            this.inchisoare.Name = "inchisoare";
-            this.inchisoare.nume = null;
-            this.inchisoare.Size = new System.Drawing.Size(89, 85);
-            this.inchisoare.TabIndex = 18;
-            this.inchisoare.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -946,7 +932,6 @@
         private CarteSpeciala sansa2;
         private CarteSpeciala sansa1;
         private CarteSpeciala cutia_comunitatii1;
-        private Inchisoare inchisoare;
     }
 }
 

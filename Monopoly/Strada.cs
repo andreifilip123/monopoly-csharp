@@ -51,7 +51,7 @@ namespace Monopoly
         {
             if(proprietar == null)
             {
-                new AfisareCelula(this.imagine);
+                var tempAfisareCelula = new AfisareCelula(this.imagine);
                 var confirmResult = MessageBox.Show($"Vrei sa cumperi {this.nume} pentru {this.valoareaProprietatii} ?",
                                      "Cumpara!",
                                      MessageBoxButtons.YesNo);
@@ -61,6 +61,8 @@ namespace Monopoly
                     jucator.numarUtilitati++;
                     jucator.bani -= valoareaProprietatii;
                     jucator.proprietatiDetinute.Add(this);
+                    tempAfisareCelula.Close();
+
                 }
             }
             else if(proprietar != jucator)

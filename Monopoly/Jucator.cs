@@ -24,13 +24,13 @@ namespace Monopoly
                 return _pozitieCurenta;
             }
             set {
-                int temp = pozitieCurenta;
-                while(temp < value)
-                {
-                    Point locatieCurenta = ListaCelule.Instanta[temp].Location;
-                    Joc.pioni[Joc.jucatori.IndexOf(Joc.jucatorActiv)].Location = new Point(locatieCurenta.X, locatieCurenta.Y);
-                    temp++;
-                }
+                //int temp = pozitieCurenta;
+                //while(temp < value)
+                //{
+                //    Point locatieCurenta = ListaCelule.Instanta.Find(celula => celula.ID == temp).Location;
+                //    Joc.pioni[Joc.jucatori.IndexOf(Joc.jucatorActiv)].Location = new Point(locatieCurenta.X, locatieCurenta.Y);
+                //    temp++;
+                //}
                 _pozitieCurenta = value;
             }
 }  

@@ -16,7 +16,8 @@ namespace Monopoly
         [JsonConstructor]
         public CarteSpeciala(int ID, string nume, string imagine) : base(ID, nume, imagine)
         {
-
+            this.ID = ID;
+            this.nume = nume;
         }
 
         public CarteSpeciala()

@@ -23,7 +23,7 @@ namespace Monopoly
         public Joc()
         {
             incarcareCelule();
-            celule.Sort(Celula.comparare);
+            ListaCelule.Instanta.Sort(Celula.comparare);
 
             jucatori.Add(new Jucator("masina","filip", 1500));
             jucatori.Add(new Jucator("palarie", "oana", 1500));
@@ -78,7 +78,7 @@ namespace Monopoly
 
             foreach (var carteSpeciala in cartiSpecialeIncarcate)
             {
-                CarteSpeciala itemExistent = (CarteSpeciala)ListaCelule.Instanta.Find(item => item.ID == carteSpeciala.ID);
+                CarteSpeciala itemExistent = (CarteSpeciala)ListaCelule.Instanta.Find(item => item.Name == parseString(carteSpeciala.nume));
                 if (itemExistent != null)
                 {
                     //pasareInformatiiCartiSpeciale(carteSpeciala, (Utilitate)itemExistent);
