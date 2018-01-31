@@ -1,0 +1,206 @@
+﻿[
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "GO",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi la GO ! Primesti 200 !"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "200",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Eroare bancara in favoarea ta. Primesti 200 !"
+  },
+  {
+    "categorie": "platesteLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "50",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Trebuie sa platesti 50 la doctor!"
+  },
+  {
+    "categorie": "primesteDeLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "50",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Datorita cresterii bursei primesti 50"
+  },
+  {
+    "categorie": "iesiDinInchisoare",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": "true"
+    },
+    "mesaj": "Cu acest card poti iesi din inchisoare. Acest card poate fi pastrat"
+  },
+  {
+    "categorie": "mergiLa",
+    "categorii": {
+      "mergiLa": "INCHISOARE",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Mergi la inchisoare ! Mergi direct la inchisoare, nu treci prin go, nu primesti 200 !"
+  },
+  {
+    "categorie": "primesteDeLaJucatori",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "50",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Pentru ca sustii un concert de opera, primesti 50 de la fiecare jucator !"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "100",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Ai primit prima de craciun de 100 !"
+  },
+  {
+    "categorie": "primesteDeLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "20",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Primesti 20 inapoi dupa recalcularea impozitului !"
+  },
+  {
+    "categorie": "primesteDeLaJucatori",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "10",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Este ziua ta. Primesti 10 de la fiecare jucator !"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Asigurarea de viata a ajuns la maturitate. Primesti 100 !"
+  },
+  {
+    "categorie": "platesteLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "100",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Trebuie sa platesti 100 taxa la spital !"
+  },
+  {
+    "categorie": "platesteLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "150",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Plateste 150 taxa de scolarizare !"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "25",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Primesti 25 taxa de consultanta pentru serviciile oferite!"
+  },
+  {
+    "categorie": "platesteLaBanca",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "REPARATII",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Trebuie sa faci reparatii generale pe toate proprietatile. Platesti 40 pentru fiecare casa si 115 pentru fiecare hotel !"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "10",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Ai castigat locul 2 la un concurs de frumusete. Primesti 10!"
+  },
+  {
+    "categorie": "primeste",
+    "categorii": {
+      "mergiLa": "",
+      "primeste": "100",
+      "primesteDeLaJucatori": "",
+      "platesteLaBanca": "",
+      "platesteLaJucatori": "",
+      "iesiDinInchisoare": ""
+    },
+    "mesaj": "Ai primit mostenire 100 !"
+  }
+]
