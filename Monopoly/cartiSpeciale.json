@@ -1,0 +1,32 @@
+﻿[
+  {
+    "ID": "2",
+    "nume": "Cutia comunitatii1",
+    "imagine": "cutia_comunitatii"
+  },
+  {
+    "ID": "7",
+    "nume": "Sansa1",
+    "imagine": "sansa"
+  },
+  {
+    "ID": "17",
+    "nume": "Cutia comunitatii2",
+    "imagine": "cutia_comunitatii"
+  },
+  {
+    "ID": "22",
+    "nume": "Sansa2",
+    "imagine": "sansa"
+  },
+  {
+    "ID": "33",
+    "nume": "Cutia comunitatii3",
+    "imagine": "cutia_comunitatii"
+  },
+  {
+    "ID": "36",
+    "nume": "Sansa3",
+    "imagine": "sansa"
+  }
+]
