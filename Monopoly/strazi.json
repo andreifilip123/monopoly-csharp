@@ -1,0 +1,354 @@
+[
+  {
+    "ID": "1",
+    "nume": "Mediterranean Avenue",
+    "valoareaProprietatii": "60",
+    "culoare": "maro",
+    "chirii": [
+      "2",
+      "10",
+      "30",
+      "90",
+      "160",
+      "250"
+    ],
+    "pretPerCasa": "50",
+    "imagineaProprietatii": "mediterranean_avenue"
+  },
+  {
+    "ID": "3",
+    "nume": "Baltic Avenue",
+    "valoareaProprietatii": "80",
+    "culoare": "maro",
+    "chirii": [
+      "4",
+      "20",
+      "60",
+      "180",
+      "320",
+      "450"
+    ],
+    "pretPerCasa": "50",
+    "imagineaProprietatii": "baltic_avenue"
+  },
+  {
+    "ID": "6",
+    "nume": "Oriental Avenue",
+    "valoareaProprietatii": "100",
+    "culoare": "bleo",
+    "chirii": [
+      "6",
+      "30",
+      "90",
+      "270",
+      "400",
+      "500"
+    ],
+    "pretPerCasa": "50",
+    "imagineaProprietatii": "oriental_avenue"
+  },
+  {
+    "ID": "8",
+    "nume": "Vermont Avenue",
+    "valoareaProprietatii": "100",
+    "culoare": "bleo",
+    "chirii": [
+      "6",
+      "30",
+      "90",
+      "270",
+      "400",
+      "550"
+    ],
+    "pretPerCasa": "50",
+    "imagineaProprietatii": "vermont_avenue"
+  },
+  {
+    "ID": "9",
+    "nume": "Connecticut Avenue",
+    "valoareaProprietatii": "120",
+    "culoare": "bleo",
+    "chirii": [
+      "8",
+      "40",
+      "100",
+      "300",
+      "450",
+      "600"
+    ],
+    "pretPerCasa": "50",
+    "imagineaProprietatii": "connecticut_avenue"
+  },
+  {
+    "ID": "11",
+    "nume": "St. Charles Place",
+    "valoareaProprietatii": "140",
+    "culoare": "roz",
+    "chirii": [
+      "10",
+      "50",
+      "150",
+      "450",
+      "625",
+      "750"
+    ],
+    "pretPerCasa": "100",
+    "imagineaProprietatii": "st_charles_place"
+  },
+  {
+    "ID": "13",
+    "nume": "States Avenue",
+    "valoareaProprietatii": "140",
+    "culoare": "roz",
+    "chirii": [
+      "10",
+      "50",
+      "150",
+      "450",
+      "625",
+      "750"
+    ],
+    "pretPerCasa": "100",
+    "imagineaProprietatii": "states_avenue"
+  },
+  {
+    "ID": "14",
+    "nume": "Virginia Avenue",
+    "valoareaProprietatii": "160",
+    "culoare": "roz",
+    "chirii": [
+      "12",
+      "60",
+      "180",
+      "500",
+      "700",
+      "900"
+    ],
+    "pretPerCasa": "100",
+    "imagineaProprietatii": "virginia_avenue"
+  },
+  {
+    "ID": "16",
+    "nume": "St. James Place",
+    "valoareaProprietatii": "180",
+    "culoare": "portocaliu",
+    "chirii": [
+      "14",
+      "70",
+      "200",
+      "550",
+      "750",
+      "950"
+    ],
+    "pretPerCasa": "100",
+    "imagineaProprietatii": "st_james_place"
+  },
+  {
+    "ID": "18",
+    "nume": "Tennessee Avenue",
+    "valoareaProprietatii": "180",
+    "culoare": "portocaliu",
+    "chirii": [
+      "14",
+      "70",
+      "200",
+      "550",
+      "750",
+      "950"
+    ],
+    "pretPerCasa": "100",
+    "imagineaProprietatii": "tennessee_avenue"
+  },
+  {
+    "ID": "19",
+    "nume": "New York Avenue",
+    "valoareaProprietatii": "200",
+    "culoare": "portocaliu",
+    "chirii": [
+      "16",
+      "80",
+      "220",
+      "600",
+      "800",
+      "1000"
+    ],
+    "pretPerCasa": "100",
+    "imagineaProprietatii": "new_york_avenue"
+  },
+  {
+    "ID": "21",
+    "nume": "Kentucky Avenue",
+    "valoareaProprietatii": "220",
+    "culoare": "rosu",
+    "chirii": [
+      "18",
+      "90",
+      "250",
+      "700",
+      "875",
+      "1050"
+    ],
+    "pretPerCasa": "150",
+    "imagineaProprietatii": "kentucky_avenue"
+  },
+  {
+    "ID": "23",
+    "nume": "Indiana Avenue",
+    "valoareaProprietatii": "220",
+    "culoare": "rosu",
+    "chirii": [
+      "18",
+      "90",
+      "250",
+      "700",
+      "875",
+      "1050"
+    ],
+    "pretPerCasa": "150",
+    "imagineaProprietatii": "indiana_avenue"
+  },
+  {
+    "ID": "24",
+    "nume": "Illinois Avenue",
+    "valoareaProprietatii": "240",
+    "culoare": "rosu",
+    "chirii": [
+      "20",
+      "100",
+      "300",
+      "750",
+      "925",
+      "1100"
+    ],
+    "pretPerCasa": "150",
+    "imagineaProprietatii": "illinois_avenue"
+  },
+  {
+    "ID": "26",
+    "nume": "Atlantic Avenue",
+    "valoareaProprietatii": "260",
+    "culoare": "galben",
+    "chirii": [
+      "22",
+      "110",
+      "330",
+      "800",
+      "975",
+      "1150"
+    ],
+    "pretPerCasa": "150",
+    "imagineaProprietatii": "atlantic_avenue"
+  },
+  {
+    "ID": "27",
+    "nume": "Ventnor Avenue",
+    "valoareaProprietatii": "260",
+    "culoare": "galben",
+    "chirii": [
+      "22",
+      "110",
+      "330",
+      "800",
+      "975",
+      "1150"
+    ],
+    "pretPerCasa": "150",
+    "imagineaProprietatii": "ventnor_avenue"
+  },
+  {
+    "ID": "29",
+    "nume": "Marvin Gardens",
+    "valoareaProprietatii": "280",
+    "culoare": "galben",
+    "chirii": [
+      "24",
+      "120",
+      "360",
+      "850",
+      "1025",
+      "1200"
+    ],
+    "pretPerCasa": "150",
+    "imagineaProprietatii": "marvin_gardens"
+  },
+  {
+    "ID": "31",
+    "nume": "Pacific Avenue",
+    "valoareaProprietatii": "300",
+    "culoare": "verde",
+    "chirii": [
+      "26",
+      "130",
+      "390",
+      "900",
+      "1100",
+      "1275"
+    ],
+    "pretPerCasa": "200",
+    "imagineaProprietatii": "pacific_avenue"
+  },
+  {
+    "ID": "32",
+    "nume": "North Carolina Avenue",
+    "valoareaProprietatii": "300",
+    "culoare": "verde",
+    "chirii": [
+      "26",
+      "130",
+      "390",
+      "900",
+      "1100",
+      "1275"
+    ],
+    "pretPerCasa": "200",
+    "imagineaProprietatii": "north_carolina_avenue"
+  },
+  {
+    "ID": "34",
+    "nume": "Pennsylvania Avenue",
+    "valoareaProprietatii": "320",
+    "culoare": "verde",
+    "chirii": [
+      "28",
+      "150",
+      "450",
+      "1000",
+      "1200",
+      "1400"
+    ],
+    "pretPerCasa": "200",
+    "imagineaProprietatii": "pennsylvania_avenue"
+  },
+  {
+    "ID": "37",
+    "nume": "Park place",
+    "valoareaProprietatii": "350",
+    "culoare": "bleomarin",
+    "chirii": [
+      "35",
+      "175",
+      "500",
+      "1100",
+      "1300",
+      "1500"
+    ],
+    "pretPerCasa": "200",
+    "imagineaProprietatii": "park_place"
+  },
+  {
+    "ID": "39",
+    "nume": "Boardwalk",
+    "valoareaProprietatii": "400",
+    "culoare": "bleomarin",
+    "chirii": [
+      "40",
+      "200",
+      "600",
+      "1400",
+      "1700",
+      "2000"
+    ],
+    "pretPerCasa": "200",
+    "imagineaProprietatii": "boardwalk"
+  }
+]
